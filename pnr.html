@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PNR STATUS</title>
+<style>
+.aa{
+margin-left:250px;
+height:30px;
+width:900px;
+text-align:center;
+background-color:blue;}
+.pnr{
+margin-left:350px;
+
+}
+input {
+  width: 300px;
+  padding: 8px;
+  margin: 8px;
+  outline: none;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+button {
+  width: 130px;
+  margin: 8px;
+  padding: 8px;
+  background: rgb(80, 55, 80);
+  outline: none;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+  transition: 0.5s;}
+#demo{
+margin-left:250px;}
+</style>
+  </head>
+  <body>
+<img style="margin-left:250px"src="head.gif">
+<img style="margin-left:850px"src="head2.gif">
+<h2 style="margin:-50px 0px 0px 250px">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;INDIAN RAILWAYS PASSENGER RESERVATION ENQUIRY</h2><br><br><br>
+<img style="margin-left:250px" src="food.jpg">
+<h2 class="aa">Passenger Current Status Enquiry</h2>
+<p id="demo"></p>
+<h3 style="margin-left:250px">Enter the PNR for your booking below to get the current status. You will find it on the top left corner of the ticket.</h3><br>
+<div class="pnr">
+<label><b>Enter PNR Number</b> &emsp;&emsp;&emsp;</label>
+<input type="text" name="text"placeholder="Enter PNR"  /><br><br><br>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<button>Submit</button>&emsp;
+<button>Clear</button></div><br><br>
+<img style="margin-left:250px" src="pnr1.jpg">
+<h3 style="margin-left:350px">Copyright &#169; 2017, Centre For Railway Information Systems, Designed and Hosted by CRIS</h3>
+
+</body>
+
+<script>
+const d = new Date();
+document.getElementById("demo").innerHTML = d;
+</script>
+</html>

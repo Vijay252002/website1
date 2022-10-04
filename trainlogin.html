@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form </title>
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body>
+      <ul>
+<li><a  class="active" href="#">Home</a></li>
+<li><a class="active" href="pnr.html">PNR status</a></li>
+<li><a class="active" href="#home">Food booking</a></li>
+<li><a class="active" href="#home">About</a></li>
+</ul>
+    <div class="container">
+      <div class="login">
+        <form action>
+          <h2>online Train ticket booking</h2>
+          <hr />
+          <h4>Login Form</h4>
+          <label>Email</label>
+          <input type="email" name="email"placeholder="Email"  />
+          <label>Password</label>
+          <input type="password"name="pass" placeholder="Password"/>
+          <a href="forgot.html" >Forgot Password</a>
+       
+          <button onclick="login()"><span>Log In</span></button>
+          
+          <p>Don't have a free account yet?</p>
+          <button onclick="f1()" ><span>Create Account</span></button>
+        </form>
+      </div>
+      <div class="pic">
+        <img src="signup.jpg" />
+      </div>
+    </div></body>
+ <script>
+      function login()
+{
+window.location.href="ticketbooking.html";
+}
+      function f1(){
+          window.location.href="reg.html";
+      }
+  </script>
+  
+  </html>
